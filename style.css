@@ -1,0 +1,121 @@
+body{
+font-family:'Poppins',sans-serif;
+
+}
+.banner
+{
+    background-image: url(img/header.jpg);
+    padding: 150px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.highlight
+{
+    color:	#FF8C00;
+    text-decoration: none;
+}
+.highlight2
+{
+    color:  #6b3600;
+    text-decoration: none;
+    background-color: beige;
+}
+.small-line {
+    display: inline-block;
+    border-top: 2px solid rgb(25, 14, 3); /* Line color and thickness */
+    width: 80px; /* Line width */
+    margin-left: 10px; /* Space between the word "US" and the line */
+    position: relative;
+    top: 5px; /* Adjust this value to move the line downward */
+}
+.services{
+    background-image: url(img/service.jpg);
+    padding: 150px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.services-title{
+    color:black;
+    background-color:rgba(255, 255, 255, 0.5);/* Semi-transparent black background */
+    padding: 3%;
+    border-radius: 5px;
+    width: 50%;
+    margin-bottom:auto;
+}
+.services-fs {
+    color:  #6b3600; 
+    margin-right: 10px; 
+    font-size: 1.2em; 
+  }
+  .gallery {
+    background-image: url('img/baranti.webp');
+    padding: 50px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.gallery-bg {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 3%;
+    border-radius: 5px;
+    width: 100%; /* Ensure it takes up the full width of the parent container */
+    max-width: 1200px; /* Optionally limit the maximum width for large screens */
+    margin: 0 auto; /* Center it horizontally */
+    box-sizing: border-box;
+}
+
+.gallery img {
+    width: 100%; /* Responsive width */
+    max-width: 200px; /* Limits the max size of images */
+    height: 200px; /* Maintains aspect ratio */
+    object-fit: cover;
+    padding: 3px 0; /* Adjust padding */
+}
+
+.img-thumbnail {
+    transition: 0.7s;
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.2);
+}
+
+.gallery .col-md-3 {
+    overflow: hidden; /* Prevents images from overflowing when hovered */
+}
+
+.contact{
+    width: 80%;
+    padding-left: 20%;
+}
+.row
+{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.form-control{
+    height:52px;
+    background-color: #fff;
+    color:#000;
+    border-radius: 2px;
+    border:1px solid rgba(99, 99, 99, 0.2)
+}
+.footer {
+    padding: 0;
+    margin: 0;
+}
+.footer footer {
+    padding: 0;
+    margin: 0;
+}
+
+
+.footer-bg:hover{
+   color:#466670;
+}
